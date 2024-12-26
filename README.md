@@ -71,12 +71,42 @@ Automatically act on your data and communicate using third-party services like T
 
 
 # PROGRAM:
+```
+const int trigPin = 9;
+const int echoPin = 10;
 
+long duration;
+int distance;
+void setup() {
+pinMode(trigPin, OUTPUT);
+pinMode(echoPin, INPUT);
+Serial.begin(9600);
+}
+
+void loop() 
+{
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  duration = pulseIn(echoPin, HIGH);
+  distance= duration*0.034/2;
+  Serial.print("Distance: ");
+  Serial.println(distance);
+}
+```
 # CIRCUIT DIAGRAM:
+
+![image](https://github.com/user-attachments/assets/dc4909d5-44a8-4038-8e12-d71d0e5080aa)
+
 
 # OUTPUT:
 
+![image](https://github.com/user-attachments/assets/56a32ed4-7450-4957-82a5-1bd280ae6915)
+
+
 # RESULT:
 
-Thus the temperature sensor values are updated in the Thing speak using ESP32 controller.
+Thus the distance of the obstacle was monitored using Ultrasonic sensor and the distance values are uploaded in the Thing speak using ESP32 controller.
 

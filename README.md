@@ -1,4 +1,8 @@
-#Uploading temperature sensor data in Thing Speak cloud
+NAME : Sitharth.B.S
+
+REG NO : 24900657
+
+# Uploading-sensor-data-in-Thing-Speak-cloud 
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.

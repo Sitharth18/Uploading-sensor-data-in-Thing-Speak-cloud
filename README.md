@@ -84,5 +84,3 @@ Automatically act on your data and communicate using third-party services like T
 # RESULT:
 Thus the temperature sensor values are updated in the Thing speak using ESP32 controller.
 
-Thus the temperature sensor values are updated in the Thing speak using ESP32 controller.
-

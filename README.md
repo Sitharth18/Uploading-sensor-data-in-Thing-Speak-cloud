@@ -1,4 +1,4 @@
-# Uploading temperature sensor data in Thing Speak cloud
+![398304511-b86df11f-9a3e-4faf-943b-d8d473401707](https://github.com/user-attachments/assets/a46c2484-0d1c-4303-a83e-01c839f873fa)# Uploading temperature sensor data in Thing Speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.
@@ -71,12 +71,18 @@ Automatically act on your data and communicate using third-party services like T
 
 
 # PROGRAM:
+![image](https://github.com/user-attachments/assets/958fd5f9-3ee0-4128-bff1-48b6866f6dd3)
 
 # CIRCUIT DIAGRAM:
+![398304584-ef922c32-54fd-40f9-b352-060b4363ad84](https://github.com/user-attachments/assets/0b897c36-98ac-4464-92ff-bfb4e7d8c9a9)
+
 
 # OUTPUT:
+![398304638-d66f4eda-46de-489d-8d06-7fd2c5b1e5f9](https://github.com/user-attachments/assets/1c1372a9-c67c-4f82-a721-92fdf33725e5)
+
 
 # RESULT:
+Thus the temperature sensor values are updated in the Thing speak using ESP32 controller.
 
 Thus the temperature sensor values are updated in the Thing speak using ESP32 controller.
 

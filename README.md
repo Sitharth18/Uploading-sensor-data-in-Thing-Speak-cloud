@@ -1,4 +1,4 @@
-![398304511-b86df11f-9a3e-4faf-943b-d8d473401707](https://github.com/user-attachments/assets/a46c2484-0d1c-4303-a83e-01c839f873fa)# Uploading temperature sensor data in Thing Speak cloud
+#Uploading temperature sensor data in Thing Speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.

@@ -1,7 +1,7 @@
 Name:Ajay J
 
 Reg no:24004969
-# Experiment 3:Monitoring temperature sensor data using Thing Speak cloud
+# Experiment 3: Monitoring temperature sensor data using Thing Speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.

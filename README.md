@@ -1,6 +1,6 @@
-Name:Ajay J
+# Name: Ajay J
 
-Reg no:24004969
+# Reg no: 24004969
 # Experiment 3: Monitoring temperature sensor data using Thing Speak cloud
 
 # AIM:

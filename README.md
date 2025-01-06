@@ -1,4 +1,6 @@
-# Uploading temperature sensor data in Thing Speak cloud
+###Ajay J
+###24004969
+# Monitoring temperature sensor data using Thing Speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.

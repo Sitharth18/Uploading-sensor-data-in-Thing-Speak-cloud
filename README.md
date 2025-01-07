@@ -1,7 +1,8 @@
-### Name: Ajay J
+NAME : Ajay J
 
-### Reg no: 24004969
-# Experiment 3: Monitoring temperature sensor data using Thing Speak cloud
+REG NO : 24004969
+
+# EXP-3 monitoring temperature sensor data using thing speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.
@@ -74,42 +75,17 @@ Automatically act on your data and communicate using third-party services like T
 
 
 # PROGRAM:
-```
-const int trigPin = 9;
-const int echoPin = 10;
+![image](https://github.com/user-attachments/assets/958fd5f9-3ee0-4128-bff1-48b6866f6dd3)
 
-long duration;
-int distance;
-void setup() {
-pinMode(trigPin, OUTPUT);
-pinMode(echoPin, INPUT);
-Serial.begin(9600);
-}
-
-void loop() 
-{
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-  duration = pulseIn(echoPin, HIGH);
-  distance= duration*0.034/2;
-  Serial.print("Distance: ");
-  Serial.println(distance);
-}
-```
 # CIRCUIT DIAGRAM:
-
-![image](https://github.com/user-attachments/assets/dc4909d5-44a8-4038-8e12-d71d0e5080aa)
+![398304584-ef922c32-54fd-40f9-b352-060b4363ad84](https://github.com/user-attachments/assets/0b897c36-98ac-4464-92ff-bfb4e7d8c9a9)
 
 
 # OUTPUT:
-
-![image](https://github.com/user-attachments/assets/56a32ed4-7450-4957-82a5-1bd280ae6915)
+![398304638-d66f4eda-46de-489d-8d06-7fd2c5b1e5f9](https://github.com/user-attachments/assets/1c1372a9-c67c-4f82-a721-92fdf33725e5)
 
 
 # RESULT:
+Thus the temperature sensor values are updated in the Thing speak using ESP32 controller.
 
-Thus the distance of the obstacle was monitored using Ultrasonic sensor and the distance values are uploaded in the Thing speak using ESP32 controller.
 

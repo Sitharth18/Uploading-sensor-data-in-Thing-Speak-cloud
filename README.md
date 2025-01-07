@@ -2,7 +2,7 @@ NAME : Sitharth.B.S
 
 REG NO : 24900657
 
-# EXP-3 Uploading-sensor-data-in-Thing-Speak-cloud 
+# EXP-3 monitoring temperature sensor data using thing speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.
